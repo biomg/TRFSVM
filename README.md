@@ -8,4 +8,8 @@ We propose TSVM to predict context-specific functional NCVs, Which uses a convol
     numpy >= 1.15.4
     scipy >= 1.2.1
     scikit-learn >= 0.20.3
-    
+# Usage
+    python pretrain.py
+    The pretrain.py file contains pretain_model. The model was pretrained by a general functional NCVs with the same number of negative variants as positive variants.
+    python TSVM.py
+    The pretrain.py file contains feature extraction and prediction of context-specific functional NCVs.
