@@ -8,6 +8,9 @@ We propose TSVM to predict context-specific functional NCVs, Which uses a convol
     numpy >= 1.15.4
     scipy >= 1.2.1
     scikit-learn >= 0.20.3
+# Data
+Download the data from https://pan.baidu.com/s/1ZdkaYJWXXdTc8uDiw1JA1Q?pwd=6l6l 
+It has Generic dataset and MPRA dataset for pretraining and testing.
 # Usage
     python pretrain.py
     The pretrain.py file contains pretain_model. The model was pretrained by a general functional NCVs 
@@ -17,3 +20,7 @@ We propose TSVM to predict context-specific functional NCVs, Which uses a convol
 # Supported GPUs
     Now it supports GPUs. The code support GPUs and CPUs, it automatically check whether you server install GPU or not, 
     it will proritize using the GPUs if there exist GPUs.
+# Contact
+Minglie Li: minglie.li@foxmail.com
+# Updates
+5/3/2023
